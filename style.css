@@ -1,4 +1,19 @@
-.ATLASSIAN {
+.navBar .leftnavBar {
+  display: flex;
+}
+.navBar .leftnavBar .ATLASSIAN {
   color: #0050D3;
-  background-color: aquamarine;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 27px;
+}
+.navBar .leftnavBar .drawer {
+  margin: 1em;
+}
+.navBar .leftnavBar .drawer .indiseDrawer {
+  display: flex;
+  justify-content: baseline;
+  position: absolute;
+  height: 450px;
+  width: 400px;
+  background-color: black;
 }/*# sourceMappingURL=style.css.map */
